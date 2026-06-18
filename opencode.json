@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "head",
+  "agent": {
+    "head": {
+      "description": "HEAD OF ENGINEERING — único ponto de entrada, coordena equipes, aprova entregas",
+      "mode": "primary"
+    },
+    "general": { "disable": true },
+    "plan": { "disable": true },
+    "explore": {
+      "description": "Explorador de codebase para especialistas",
+      "mode": "subagent",
+      "hidden": true
+    }
+  },
+  "plugin": [
+    "tools/memory-read.ts",
+    "tools/memory-write.ts"
+  ]
+}
