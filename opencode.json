@@ -12,6 +12,291 @@
       "description": "Explorador de codebase para especialistas",
       "mode": "subagent",
       "hidden": true
+    },
+    "tech-lead-backend": {
+      "description": "Líder Backend .NET — coordena, delega, nunca executa",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "net-solution-architect": {
+      "description": "Arquiteto .NET — DDD, CQRS, Event Sourcing, padrões, poder de veto",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "aspnet-core-specialist": {
+      "description": "Especialista ASP.NET Core — APIs REST, Minimal APIs, gRPC, SignalR, middlewares",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "infrastructure-integration-specialist": {
+      "description": "Especialista em integrações — RabbitMQ, Kafka, filas, eventos",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "data-access-specialist": {
+      "description": "Especialista em dados — EF Core, Dapper, SQL, migrations, queries",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "net-cli-specialist": {
+      "description": "Especialista em tooling .NET — build, scripts, automação",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "backend-performance-specialist": {
+      "description": "Especialista em performance backend — profiling, cache, throughput, latência",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "clean-architecture-specialist": {
+      "description": "Guardião da arquitetura limpa — SOLID, Clean Code, Clean Architecture, poder de veto",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "tech-lead-frontend": {
+      "description": "Líder Frontend .NET — coordena Blazor, WASM, SSR, componentes",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "blazor-architect": {
+      "description": "Arquiteto Blazor — SSR, Interactive SSR, WASM, estruturação",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "blazor-specialist": {
+      "description": "Especialista Blazor — componentes, estado, formulários, navegação",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "ui-architecture-specialist": {
+      "description": "Especialista em arquitetura UI — Design System, estrutura visual, padronização",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "ux-specialist": {
+      "description": "Especialista em UX — usabilidade, experiência do usuário, acessibilidade",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "frontend-performance-specialist": {
+      "description": "Especialista em performance frontend — renderização, bundle, lazy loading",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "tech-lead-game": {
+      "description": "Líder Game Engineering — coordena engine, rendering, ECS, assets",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "engine-architect": {
+      "description": "Arquiteto da Engine — ECS, arquitetura, organização interna (participação obrigatória)",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "silknet-specialist": {
+      "description": "Especialista Silk.NET — OpenGL, Vulkan, renderização com Silk.NET",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "voxel-specialist": {
+      "description": "Especialista em Voxel — Chunk System, Terrain Generation, Streaming",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "ecs-specialist": {
+      "description": "Especialista ECS — Entidades, Componentes, Sistemas",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "rendering-specialist": {
+      "description": "Especialista em Renderização — Pipeline gráfico, Draw Calls, Culling",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "animation-specialist": {
+      "description": "Especialista em Animação — Rigging, Skinning, Blend Trees, Skeletons",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "asset-pipeline-specialist": {
+      "description": "Especialista em Asset Pipeline — FBX, compressão, conversão, empacotamento, proteção",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "multiplayer-specialist": {
+      "description": "Especialista em Multiplayer — Sincronização, Replicação, Predição",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "optimization-specialist": {
+      "description": "Especialista em Otimização — CPU, GPU, Memória, Streaming",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "tech-lead-devops": {
+      "description": "Líder DevOps — coordena CI/CD, Docker, Cloud, SRE, monitoramento",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "cicd-specialist": {
+      "description": "Especialista CI/CD — Pipelines, Releases, Automação",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "docker-specialist": {
+      "description": "Especialista Docker — Dockerfiles, docker-compose, containers",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "kubernetes-specialist": {
+      "description": "Especialista Kubernetes — Orquestração, clusters, deployments",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "cloud-specialist": {
+      "description": "Especialista Cloud — Azure, AWS, infraestrutura cloud",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "sre-specialist": {
+      "description": "Especialista SRE — Disponibilidade, Escalabilidade, Confiabilidade",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "monitoring-specialist": {
+      "description": "Especialista em Monitoramento — Logs, Métricas, Traces, Observabilidade",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "security-operations-specialist": {
+      "description": "Especialista em Segurança — Hardening, segurança de infraestrutura",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "test-lead": {
+      "description": "Líder de Testes — coordena testes automatizados, qualidade e cobertura",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "unit-test-specialist": {
+      "description": "Especialista em Testes Unitários — xUnit, NUnit, MSTest, mocking",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "integration-test-specialist": {
+      "description": "Especialista em Testes de Integração — TestContainers, bancos reais, APIs",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "e2e-test-specialist": {
+      "description": "Especialista em Testes E2E — Playwright, Selenium, cenários completos",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "performance-test-specialist": {
+      "description": "Especialista em Testes de Performance — BenchmarkDotNet, profiling",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "load-test-specialist": {
+      "description": "Especialista em Testes de Carga — k6, NBomber, estresse",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "regression-test-specialist": {
+      "description": "Especialista em Testes de Regressão — snapshot testing, CI gates",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "coverage-specialist": {
+      "description": "Especialista em Cobertura — métricas, relatórios, identificação de gaps",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "chief-reviewer": {
+      "description": "Chief Reviewer — coordena revisões, pode bloquear entregas",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "architecture-reviewer": {
+      "description": "Revisor de Arquitetura — valida decisões arquiteturais",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "code-reviewer": {
+      "description": "Revisor de Código — valida qualidade, padrões e boas práticas",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "security-reviewer": {
+      "description": "Revisor de Segurança — valida segurança e conformidade",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "performance-reviewer": {
+      "description": "Revisor de Performance — valida impacto em desempenho",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "maintainability-reviewer": {
+      "description": "Revisor de Manutenibilidade — valida manutenção futura",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "scalability-reviewer": {
+      "description": "Revisor de Escalabilidade — valida crescimento futuro",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "domain-reviewer": {
+      "description": "Revisor de Domínio — valida aderência ao escopo do negócio",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "audit-lead": {
+      "description": "Audit Lead — coordena auditorias, garante aprendizado organizacional",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "failure-analysis-specialist": {
+      "description": "Especialista em Análise de Falhas — bugs, regressões, incidentes",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "root-cause-specialist": {
+      "description": "Especialista em Causa Raiz — análise de causa raiz, 5 porquês, impacto sistêmico",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "success-analysis-specialist": {
+      "description": "Especialista em Análise de Sucessos — acertos, boas práticas, padrões",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "process-improvement-specialist": {
+      "description": "Especialista em Melhoria de Processos — melhorias organizacionais, fluxos",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "knowledge-curator": {
+      "description": "Curador de Conhecimento — mantém memória dos agentes, estrutura e qualidade",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "agent-evolution-specialist": {
+      "description": "Especialista em Evolução de Agentes — refatora comportamento, skills, prompts",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "memory-auditor": {
+      "description": "Auditor técnico — avalia entregas, extrai lições aprendidas e classifica aprendizado",
+      "mode": "subagent",
+      "hidden": true
+    },
+    "memory-reflector": {
+      "description": "Reflector de aprendizado — executa reflexão profunda sobre falhas (nota < 10)",
+      "mode": "subagent",
+      "hidden": true
     }
   },
   "plugin": [
