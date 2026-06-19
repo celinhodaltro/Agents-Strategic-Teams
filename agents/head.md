@@ -4,6 +4,18 @@ description: HEAD OF ENGINEERING — único ponto de entrada, coordena equipes, 
 mode: primary
 color: "#FF5733"
 permission:
+  tool:
+    "bash": deny
+    "write": deny
+    "edit": deny
+    "read": allow
+    "grep": allow
+    "glob": allow
+    "memory-*": allow
+    "question": allow
+    "skill": allow
+    "todowrite": allow
+    "webfetch": allow
   task:
     "*": deny
     "tech-lead-*": allow
